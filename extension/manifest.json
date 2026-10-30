@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "VacatureKompas",
+  "version": "1.0.0",
+  "description": "Herken eerder bekeken vacatures en beoordeel ze. Je geschiedenis blijft lokaal op dit apparaat.",
+  "permissions": ["storage"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_popup": "popup.html", "default_title": "VacatureKompas"},
+  "content_scripts": [{"matches": ["https://*/*", "http://*/*"], "js": ["core.js", "content.js"], "css": ["content.css"], "run_at": "document_idle"}]
+}

@@ -1,0 +1,4 @@
+.vk-badge { display:inline-block !important; margin:3px 6px !important; padding:2px 7px !important; border:1px solid #23765a !important; border-radius:999px !important; background:#eaf8ef !important; color:#174c36 !important; font:600 11px/1.6 system-ui,sans-serif !important; white-space:nowrap !important; vertical-align:middle !important; }
+a.vk-seen { opacity:.65 !important; }
+a.vk-seen:hover, a.vk-seen:focus-visible { opacity:1 !important; }
+a.vk-seen > .vk-badge { background:#f0f2f5 !important; border-color:#657080 !important; color:#354152 !important; }

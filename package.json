@@ -1,0 +1,1 @@
+{"name":"vacaturekompas","version":"1.0.0","private":true,"scripts":{"test":"node --test tests/*.test.cjs","test:browser":"node tests/browser.cjs","build":"python3 scripts/package.py"}}
